@@ -62,33 +62,6 @@ Usage of the application: `heatedplate use_case`\
 &nbsp;`heatedplate 1` (small)\
 &nbsp;`heatedplate 2` (large)
 
-## STEP 0: Create git repository (10%)
-
-Your code should be forked from this repository and hosted on code.it4i.cz as a private project with reporter access for all teachers (bes0030, vys0053, jansik, lriha, mec059, milanjaros, vav0038).
-
-## STEP 1:  Building the library (10%)
-
-Provide compilation script for your application (the script should run independently on a current path). Script should load all necessary modules and call `cmake`.
-
-## STEP 2:  Analysis of the application (10%)
-
-Use `Arm map` (module Forge) to analyze a sequential run of your application with given use case (`large`). Identify the most time consuming regions that can be parallelized by OpenMP.
-
-## STEP 3:  Use OpenMP to run the application in parallel (10%)
-
-Put OpenMP pragmas to a correct positions with appropriate variables visibility in order to utilize more threads effectively.
-
-## STEP 4:  Test the correctness of the code (10%)
-
-Create script that automatically check correctness of your application for at least 3 different test cases. Comparison can be implemented as comparison of outputs of sequential and parallel runs.
-
-## STEP 5:  Test the behavior of the code on the Karolina cluster (40%)
-
-1. Implement time measurement for all parallel regions using omp_get_wtime(). 
-2. Create script for run strong scalability measurement (PBS script).
-3. Evaluate strong scalability of measured regions up to 128 threads and different thread affinity (compact, scatter, balanced, none).
-4. Prepare charts for all measurements.
-
 ## STEP 6:  Presentation of your project (10%)
 
 Prepare presentation in form of slides (pptx, pdf). The slides should address all topics requested above.
