@@ -1,0 +1,4 @@
+/home/nov0488/heatedplate/src/build/CMakeFiles/main.dir
+/home/nov0488/heatedplate/src/build/CMakeFiles/heated_plate.dir
+/home/nov0488/heatedplate/src/build/CMakeFiles/edit_cache.dir
+/home/nov0488/heatedplate/src/build/CMakeFiles/rebuild_cache.dir

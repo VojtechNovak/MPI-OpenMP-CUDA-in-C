@@ -1,0 +1,1 @@
+/apps/all/AOCC/3.2.0-GCCcore-11.2.0/bin/clang++ -O2 -fPIC -march=znver2 -rdynamic CMakeFiles/heated_plate.dir/heated_plate.o -o heated_plate 
