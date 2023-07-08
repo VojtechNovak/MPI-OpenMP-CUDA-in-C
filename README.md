@@ -61,9 +61,3 @@ Usage of the application: `heatedplate use_case`\
 &nbsp;`heatedplate 0` (tiny)\
 &nbsp;`heatedplate 1` (small)\
 &nbsp;`heatedplate 2` (large)
-
-## STEP 6:  Presentation of your project (10%)
-
-Prepare presentation in form of slides (pptx, pdf). The slides should address all topics requested above.
-
-The presentation (pdf) as well as all other modifications, and outputs push to your git repository.
